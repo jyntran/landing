@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
 body {
   background-color: #eee;
 }
@@ -21,6 +23,7 @@ body {
   h1 {
     text-align: center;
     text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
   }
 }
 
@@ -40,6 +43,8 @@ body {
 }
 
 section {
+  font-family: 'Istok Web', sans-serif;
+
   a {
     color: #c00;
     transition: all 0.2s;
@@ -69,7 +74,7 @@ section {
 
 .links {
   li {
-    border: 1px solid #ccc;
+    border: 1px solid #eee;
     border-radius: 4px;
     transition: all 0.2s;
 
@@ -81,8 +86,6 @@ section {
     }
 
     &:hover {
-      border-color: #999;
-
       a {
         color: #c00;
       }
@@ -98,7 +101,7 @@ section {
       display: block;
       color: #888;
       text-decoration: none;
-
+      font-family: 'Istok Web', sans-serif;
       transition: all 0.2s;
     }
 
