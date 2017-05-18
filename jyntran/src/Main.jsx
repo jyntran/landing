@@ -9,7 +9,9 @@ export default class Main extends Component {
           <div className="brand">
             <img src="logo-t.png" alt="Brand"/>
           </div>
-          <h1>jen tran</h1>
+          <h1>Jen Tran</h1>
+          <h2>Software Developer | Artist</h2>
+          <span>Waterloo, ON</span>
           <Links/>
         </div>
       )
