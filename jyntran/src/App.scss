@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Istok+Web');
+
+body {
+  background: url('/bg.png'); /* Background pattern from Subtle Patterns */
+  overflow: hidden;
+}
+
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+
+.main {  
+  background: #fff;
+  padding: 24px;
+  min-width: 300px;
+  min-height: 300px;
+  text-align: center;
+  border-radius: 4px;
+  transition: all 0.2s;
+  box-shadow: 2px 2px 0 #cbb;
+
+  h1 {
+    color: #333;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  h2, span {
+    color: #999;
+    font-family: 'Istok Web', sans-serif;
+    font-size: small;
+  }
+}
+
+.container {
+  height: 200px;
+}
+
+.brand {
+  width: 12%;
+  max-width: 100px;
+  margin: 24px auto;
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+section {
+  font-family: 'Istok Web', sans-serif;
+
+  a {
+    color: #c00;
+    transition: all 0.2s;
+
+    &:hover {
+      color: #a00;
+    }
+  }
+}
+
+.links,
+.navigation {
+  text-align: center;
+
+  ul {
+    margin: 0;
+    padding: 0;
+
+    li {
+      display: inline-block;
+      margin: 0px 8px;
+      text-transform: uppercase;
+      text-decoration: none;
+    }
+  }
+}
+
+.links {
+  margin: 24px 0;
+  li {
+    transition: all 0.2s;
+
+    a {
+      display: block;
+      padding: 12px;
+      color: #aaa;
+      transition: all 0.2s;
+    }
+
+    &:hover {
+      a {
+        color: #c66;
+      }
+    }
+  }
+}
+
+.navigation {
+  li {
+    transition: all 0.2s;
+    
+    a {
+      display: block;
+      color: #888;
+      text-decoration: none;
+      font-family: 'Istok Web', sans-serif;
+      transition: all 0.2s;
+    }
+
+    &:hover {
+      a {
+        color: #333;
+      }
+    }
+  }
+}
